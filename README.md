@@ -37,20 +37,20 @@ simple page (title and image) and put everything to single docker compose comman
 
 ## Setup and Installation
 To set up and run this project, you need Docker and Docker Compose. Follow these steps:
-
-1. Clone this repository:
+1. Ensure Docker and Docker Compose are installed and running on your machine
+2. Clone this repository:
 ```
 git clone https://github.com/JakubGal/test_luxonis.git
 ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 ``` 
 cd test_luxonis
 ```
-3. Run the Docker Compose command:
+4. Run the Docker Compose command:
 ```   
 docker-compose up
 ```
-4. Access the Flask application at `http://127.0.0.1:8080`.
+5. Access the Flask application at `http://127.0.0.1:8080`.
 
 ## Database Schema
 The PostgreSQL database consists of a single table, `flats`, with the following schema:
@@ -58,8 +58,17 @@ The PostgreSQL database consists of a single table, `flats`, with the following 
 - `title`: String (max 255 characters), Title of the flat listing
 - `image_url`: Text, URL of the image for the flat listing
 
-## Additional Information
-- Ensure Docker and Docker Compose are installed and running on your machine.
+## Design notes:
+
+#### Using API:
+I used API for web scraping for 2 main reasons 
+  1. In https://www.sreality.cz/robots.txt it is allowed to use only API for data scraping
+  2. It is easier for processing
+
+#### Using Flask:
+  Flask is ideal for its simplicity, flexibility, and efficient handling of dynamic web 
+  page rendering, perfectly fitting the needs of a web scraping display project.
+
 
 ## License
 This project is open-sourced under the [MIT License](LICENSE).
