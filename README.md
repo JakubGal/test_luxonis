@@ -1,6 +1,6 @@
 # Project map
 ```
-luxonis_task/
+task_luxonis/
 │
 ├── flask_app/                    # Flask application directory
 │   ├── app.py                    # Main Flask application file
