@@ -40,11 +40,11 @@ To set up and run this project, you need Docker and Docker Compose. Follow these
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/JakubGal/test_luxonis.git
 ```
 2. Navigate to the project directory:
 ``` 
-cd your-repository
+cd test_luxonis
 ```
 3. Run the Docker Compose command:
 ```   
