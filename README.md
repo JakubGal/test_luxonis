@@ -64,4 +64,4 @@ The PostgreSQL database consists of a single table, `flats`, with the following 
 This project is open-sourced under the [MIT License](LICENSE).
 
 ## Author
-Jakub Gál
+Jakub Gál,2023
