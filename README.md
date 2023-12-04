@@ -73,4 +73,4 @@ I used API for web scraping for 2 main reasons
 This project is open-sourced under the [MIT License](LICENSE).
 
 ## Author
-Jakub Gál,2023
+Jakub Gál, 2023
