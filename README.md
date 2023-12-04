@@ -40,11 +40,11 @@ To set up and run this project, you need Docker and Docker Compose. Follow these
 1. Ensure Docker and Docker Compose are installed and running on your machine
 2. Clone this repository:
 ```
-git clone https://github.com/JakubGal/test_luxonis.git
+git clone https://github.com/JakubGal/task_luxonis.git
 ```
 3. Navigate to the project directory:
 ``` 
-cd test_luxonis
+cd task_luxonis
 ```
 4. Run the Docker Compose command:
 ```   
@@ -66,9 +66,8 @@ I used API for web scraping for 2 main reasons
   2. It is easier for processing
 
 #### Using Flask:
-  Flask is ideal for its simplicity, flexibility, and efficient handling of dynamic web 
-  page rendering, perfectly fitting the needs of a web scraping display project.
-
+  Flask is ideal for its simplicity, flexibility and it is perfectly 
+  fitting the needs of a web scraping display project like this.
 
 ## License
 This project is open-sourced under the [MIT License](LICENSE).
