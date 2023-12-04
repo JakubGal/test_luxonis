@@ -62,7 +62,7 @@ The PostgreSQL database consists of a single table, `flats`, with the following 
 
 #### Using API:
 I used API for web scraping for 2 main reasons 
-  1. In https://www.sreality.cz/robots.txt it is allowed to use only API for data scraping
+  1. In https://www.sreality.cz/robots.txt it is allowed to use API for data scraping
   2. It is easier for processing
 
 #### Using Flask:
