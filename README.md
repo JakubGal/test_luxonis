@@ -1,4 +1,5 @@
 # Project map
+```
 luxonis_task/
 │
 ├── flask_app/                    # Flask application directory
@@ -27,7 +28,7 @@ luxonis_task/
 ├── docker-compose.yml            # Docker Compose file to orchestrate the containers
 ├── README.md                     # README file for the project documentation
 └── .gitignore                    # Specifies intentionally untracked files to ignore
-
+```
 # Task
 Use scrapy framework to scrape the first 500 items (title, image url) from sreality.cz (flats, sell) and 
 save it in the Postgresql database. Implement a simple HTTP server in python and show these 500 items on a 
@@ -38,18 +39,18 @@ simple page (title and image) and put everything to single docker compose comman
 To set up and run this project, you need Docker and Docker Compose. Follow these steps:
 
 1. Clone this repository:
-   
+```
 git clone https://github.com/yourusername/your-repository.git
-
-3. Navigate to the project directory:
-   
+```
+2. Navigate to the project directory:
+``` 
 cd your-repository
-
+```
 3. Run the Docker Compose command:
-   
+```   
 docker-compose up
-
-5. Access the Flask application at `http://127.0.0.1:8080`.
+```
+4. Access the Flask application at `http://127.0.0.1:8080`.
 
 ## Database Schema
 The PostgreSQL database consists of a single table, `flats`, with the following schema:
